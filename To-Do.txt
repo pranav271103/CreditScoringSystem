@@ -1,0 +1,34 @@
+# Problem statement #1
+
+### **`NOTE: Candidates `MUST` submit solution in the google form provided below.`**
+
+### Your Challenge
+
+You are provided with sample 100K raw, transaction-level data from the Aave V2 protocol. Each record corresponds to a wallet interacting with the protocol through actions such as `deposit`, `borrow`, `repay`, `redeemunderlying`, and `liquidationcall`.
+
+Your task is to develop a robust machine learning model that assigns a **credit score between 0 and 1000** to each wallet, based solely on historical transaction behavior. Higher scores indicate reliable and responsible usage; lower scores reflect risky, bot-like, or exploitative behavior.
+
+Decide which features to engineer from DeFi transaction data
+Implement a one-step script that generates wallet scores from a json file which contains the a small sample of user-transactions.
+
+Validate and explain the score logic in a one-page README for transparency and extensibility.
+
+### Link to the user-transactions json file:
+
+The below file is raw json file (~87MB)
+
+https://drive.google.com/file/d/1ISFbAXxadMrt7Zl96rmzzZmEKZnyW7FS/view?usp=sharing
+
+Or if you prefer the compressed zip file (~10MB)
+
+https://drive.google.com/file/d/14ceBCLQ-BTcydDrFJauVA_PKAZ7VtDor/view?usp=sharing
+
+### Deliverables
+
+- Github repo containing all the code written, with [readme.md](http://readme.md) and [analysis.md](http://analysis.md)
+- Include readme file explaining the method chosen, complete architecture, processing flow.
+- Create a new file called [analysis.md](http://analysis.md) and after scoring all the wallets add analysis on the wallets scored, include score distribution graph across the ranges from 0-100,100-200, etc. Behavior of wallets in the lower range, behavior of wallets in the higher range.
+
+### Submission
+
+https://forms.gle/C7Y4MBKEGZgDWaNz7
